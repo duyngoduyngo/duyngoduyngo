@@ -3,7 +3,8 @@
   Repo: duyngoduyngo/duyngoduyngo  (public, named exactly your username)
 
   Files that must be committed alongside this README:
-    assets/lineage.svg   — the pipeline diagram
+    assets/lineage.svg   — referenced by its raw.githubusercontent URL,
+                           so it must stay at that exact path on branch `main`
 
   Safe to delete from the repo: assets/pipeline.svg, lineage.html
 
@@ -97,7 +98,7 @@ analytics_engineer_in_transition:
 ## 🛠️ Tech Stack &amp; Ecosystem
 
 <div align="center">
-  <img src="assets/lineage.svg" width="100%" alt="Analytics lineage: sources to staging to marts to Power BI" />
+  <img src="https://raw.githubusercontent.com/duyngoduyngo/duyngoduyngo/main/assets/lineage.svg" width="100%" alt="Analytics lineage: sources to staging to marts to Power BI" />
 </div>
 
 <div align="center">
