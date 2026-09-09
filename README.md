@@ -2,11 +2,8 @@
   GitHub Profile README — duyngoduyngo
   Repo: duyngoduyngo/duyngoduyngo  (public, named exactly your username)
 
-  Files that must be committed alongside this README:
-    assets/lineage.svg   — referenced by its raw.githubusercontent URL,
-                           so it must stay at that exact path on branch `main`
-
-  Safe to delete from the repo: assets/pipeline.svg, lineage.html
+  This README is fully self-contained — no image files to commit.
+  Safe to delete from the repo: assets/ (lineage.svg, pipeline.svg), lineage.html
 
   Still to check: the dates in the Professional Journey table.
 -->
@@ -97,80 +94,50 @@ analytics_engineer_in_transition:
 
 ## 🛠️ Tech Stack &amp; Ecosystem
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/duyngoduyngo/duyngoduyngo/main/assets/lineage.svg" width="100%" alt="Analytics lineage: sources to staging to marts to Power BI" />
-</div>
+The honest version of my stack is a migration in progress. The top lane ships today; the bottom lane is the same logic being rebuilt as version-controlled code.
 
-<div align="center">
-  <table width="100%">
-    <tr>
-      <td width="25%"><b>🔄 Transform &amp; Query</b></td>
-      <td width="75%">
-        <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
-        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
-        <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R"/>
-        <img src="https://img.shields.io/badge/Power_Query-217346?style=flat-square&logo=microsoft-excel&logoColor=white" alt="Power Query"/>
-        <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt"/>
-      </td>
-    </tr>
-    <tr>
-      <td><b>🛢️ Store &amp; Platform</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake"/>
-        <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white" alt="Databricks"/>
-        <img src="https://img.shields.io/badge/Microsoft_Fabric-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Fabric"/>
-        <img src="https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure"/>
-        <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres"/>
-      </td>
-    </tr>
-    <tr>
-      <td><b>📊 BI &amp; Visualization</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI"/>
-        <img src="https://img.shields.io/badge/Apache_Superset-0073B7?style=flat-square&logo=apache-superset&logoColor=white" alt="Superset"/>
-        <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau"/>
-        <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly"/>
-        <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white" alt="Seaborn"/>
-        <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white" alt="Excel"/>
-      </td>
-    </tr>
-    <tr>
-      <td><b>⚙️ Orchestrate &amp; Quality</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white" alt="Airflow"/>
-        <img src="https://img.shields.io/badge/dbt_Tests-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt Tests"/>
-        <img src="https://img.shields.io/badge/dbt_Docs-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt Docs"/>
-      </td>
-    </tr>
-    <tr>
-      <td><b>🚀 Git &amp; CI/CD</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
-      </td>
-    </tr>
-    <tr>
-      <td><b>🏢 Business Systems</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white" alt="SAP"/>
-        <img src="https://img.shields.io/badge/Power_Apps-742774?style=flat-square&logo=powerapps&logoColor=white" alt="Power Apps"/>
-        <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white" alt="Power Automate"/>
-      </td>
-    </tr>
-    <tr>
-      <td><b>💻 IDE &amp; Tools</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-        <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
-        <img src="https://img.shields.io/badge/DBeaver-382923?style=flat-square&logo=dbeaver&logoColor=white" alt="DBeaver"/>
-        <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Notion"/>
-      </td>
-    </tr>
-  </table>
-</div>
+```mermaid
+flowchart LR
+    subgraph now [" RUNS TODAY — clicks, not code "]
+        direction LR
+        A["sap_fiori<br/>SAP extract"] --> B["power_query<br/>reshape · clean"] --> C["power_bi<br/>leadership report"]
+    end
+
+    subgraph next [" BUILDING — the same logic, as code "]
+        direction LR
+        D["sources.yml<br/>declared · documented"] --> E["stg_<br/>clean · cast<br/>view"] --> F["int_<br/>business logic<br/>ephemeral"] --> G["mart_<br/>star schema<br/>table · tested"] --> H["exposure<br/>power_bi"]
+    end
+
+    C -.->|"rewrite"| E
+
+    style A fill:#1f2416,stroke:#6b7d3a,stroke-width:1.5px,color:#e8e6d9
+    style B fill:#1f2416,stroke:#6b7d3a,stroke-width:1.5px,color:#e8e6d9
+    style C fill:#1f2416,stroke:#facc15,stroke-width:2.5px,color:#fef3c7
+    style D fill:#1f2416,stroke:#84cc16,stroke-width:1.5px,color:#e8e6d9
+    style E fill:#1f2416,stroke:#84cc16,stroke-width:1.5px,color:#e8e6d9
+    style F fill:#1f2416,stroke:#84cc16,stroke-width:1.5px,color:#e8e6d9
+    style G fill:#1f2416,stroke:#facc15,stroke-width:2.5px,color:#fef3c7
+    style H fill:#1f2416,stroke:#3f6212,stroke-width:1.5px,color:#d9e5c4
+
+    style now  fill:none,stroke:none,color:#8a8a8a
+    style next fill:none,stroke:none,color:#8a8a8a
+
+    linkStyle 0,1 stroke:#facc15,stroke-width:2px
+    linkStyle 2,3,4,5 stroke:#84cc16,stroke-width:2px
+    linkStyle 6 stroke:#a16207,stroke-width:1.5px
+```
+
+### Where each tool actually comes from
+
+| Layer | Tools | Where I've used them |
+|---|---|---|
+| **Transform &amp; query** | <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Power_Query-217346?style=flat-square&logo=microsoft-excel&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white"/> | SQL and Power Query daily at VPBank; pandas across the SmartToys analysis; dbt on the rebuild |
+| **Modelling** | `star schema` `staging → marts` `dbt tests` | dbt Fundamentals completed; applying it to the SmartToys models now |
+| **Warehouse &amp; platform** | <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white"/> <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/> <img src="https://img.shields.io/badge/Fabric-0078D4?style=flat-square&logo=microsoft&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/> | Bootcamps on all three; evaluated them as platforms while doing tech procurement in a bank |
+| **BI &amp; visualization** | <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/> <img src="https://img.shields.io/badge/Superset-0073B7?style=flat-square&logo=apache-superset&logoColor=white"/> <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/> <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white"/> | Power BI in production for leadership reporting; plotly throughout SmartToys |
+| **Orchestration** | <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white"/> | Learning. Not in production yet — the honest gap in this list |
+| **Version control** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/> | Every project repo here; CI on the dbt rebuild |
+| **Business systems** | <img src="https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white"/> <img src="https://img.shields.io/badge/Power_Apps-742774?style=flat-square&logo=powerapps&logoColor=white"/> | SAP Fiori extracts (QT0304) and Power Apps at VPBank |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="8px" alt="Line Divider" />
 
