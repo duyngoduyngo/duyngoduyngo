@@ -4,7 +4,8 @@
 
   Files that must be committed alongside this README:
     assets/lineage.svg   — the pipeline diagram
-    lineage.html         — interactive version (enable GitHub Pages on this repo)
+
+  Safe to delete from the repo: assets/pipeline.svg, lineage.html
 
   Still to check: the dates in the Professional Journey table.
 -->
@@ -97,10 +98,6 @@ analytics_engineer_in_transition:
 
 <div align="center">
   <img src="assets/lineage.svg" width="100%" alt="Analytics lineage: sources to staging to marts to Power BI" />
-  <br/>
-  <a href="https://duyngoduyngo.github.io/duyngoduyngo/lineage.html">
-    <img src="https://img.shields.io/badge/▶_Open_the_interactive_lineage-1f1f1f?style=for-the-badge&logoColor=e8a33d"/>
-  </a>
 </div>
 
 <div align="center">
@@ -227,7 +224,7 @@ Eight prioritised recommendations, each tied to a metric and an owning team. The
 ## 📈 Activity &amp; Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=duyngoduyngo&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&bg_color=0b0f19&title_color=CA8A04&text_color=e5e7eb&icon_color=84CC16&border_color=1f2937" width="45%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=duyngoduyngo&theme=tokyonight&show_icons=true&bg_color=0b0f19&title_color=CA8A04&text_color=e5e7eb&icon_color=84CC16&border_color=1f2937" width="45%" alt="GitHub Stats" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=duyngoduyngo&layout=compact&theme=tokyonight&langs_count=8&bg_color=0b0f19&title_color=CA8A04&text_color=e5e7eb&border_color=1f2937" width="35%" alt="Top Languages" />
 </div>
 
@@ -237,12 +234,12 @@ Eight prioritised recommendations, each tied to a metric and an owning team. The
 
 | Credential | Provider | Status |
 |---|---|---|
+| dbt Fundamentals | dbt Labs | ✅ Completed |
 | Data Analyst in Python | DataCamp | ✅ Completed |
 | Associate Data Analyst in SQL | DataCamp | ✅ Completed |
 | Snowflake Bootcamp — modern data warehousing | Snowflake | ✅ Completed |
 | Databricks Lakehouse Bootcamp | Databricks | ✅ Completed |
 | Microsoft Fabric Bootcamp | Microsoft | ✅ Completed |
-| dbt Fundamentals | dbt Labs | 🔄 In progress |
 | B.A. Finance &amp; Banking | Academy of Finance | 🎓 Graduated |
 | TOEIC 840 | ETS | ✅ Certified |
 
