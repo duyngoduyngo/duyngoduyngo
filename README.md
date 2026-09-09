@@ -1,22 +1,27 @@
 <!--
   GitHub Profile README — duyngoduyngo
-  Push to a repo named exactly: duyngoduyngo/duyngoduyngo (public)
-  Only thing left to check: the dates in the Professional Journey table.
+  Repo: duyngoduyngo/duyngoduyngo  (public, named exactly your username)
+
+  Files that must be committed alongside this README:
+    assets/lineage.svg   — the pipeline diagram
+    lineage.html         — interactive version (enable GitHub Pages on this repo)
+
+  Still to check: the dates in the Professional Journey table.
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:38bdf8,100:6366f1&height=180&section=header&text=Duy%20Ngo&fontSize=52&fontColor=f8fafc&fontAlignY=32&desc=Analytics%20Engineer%20in%20the%20making&descAlignY=54&descSize=18" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3f6212,30:84cc16,55:facc15,80:fde047,100:fef3c7&height=180&section=header&text=Duy%20Ngo&fontSize=52&fontColor=1a2e05&fontAlignY=32&desc=Analytics%20Engineer%20in%20the%20making&descAlignY=54&descSize=18" width="100%" alt="Header" />
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Data+Analyst+%E2%86%92+Analytics+Engineer;SQL+%7C+Python+%7C+dbt+%7C+Power+BI+%7C+Modern+Data+Stack;Banking+%26+Airline+Domain+%E2%80%A2+Finance+Background;Turning+Spreadsheet+Chaos+into+Modelled+Data"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=CA8A04&center=true&vCenter=true&width=800&lines=Data+Analyst+%E2%86%92+Analytics+Engineer;SQL+%7C+Python+%7C+dbt+%7C+Power+BI+%7C+Modern+Data+Stack;Banking+%26+Airline+Domain+%E2%80%A2+Finance+Background;Turning+Spreadsheet+Chaos+into+Modelled+Data"/>
 </p>
 
 <p align="center">
   <a href="mailto:duyngoduyngo@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
   <a href="https://www.linkedin.com/in/duyngoduyngo/"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
   <a href="https://github.com/duyngoduyngo?tab=repositories"><img src="https://img.shields.io/badge/Projects-000000?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=duyngoduyngo&style=for-the-badge&color=38BDF8" alt="views"/>
+  <img src="https://komarev.com/ghpvc/?username=duyngoduyngo&style=for-the-badge&color=CA8A04" alt="views"/>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="8px" alt="Line Divider" />
@@ -90,30 +95,13 @@ analytics_engineer_in_transition:
 
 ## 🛠️ Tech Stack &amp; Ecosystem
 
-```mermaid
-flowchart LR
-    Source["📥 Source<br/><sub>SAP Fiori • Oracle • Excel • CSV</sub>"] --> Store["🛢️ Store<br/><sub>Snowflake • Databricks • MS Fabric • Postgres</sub>"]
-    Store --> Transform["🔄 Transform<br/><sub>SQL • pandas • Power Query • dbt</sub>"]
-    Transform --> Model["🧱 Model<br/><sub>Star schema • Staging → Marts</sub>"]
-    Model --> BI["📊 BI &amp; Analytics<br/><sub>Power BI • Superset • Tableau • plotly</sub>"]
-
-    Orchestrate["⚙️ Orchestrate<br/><sub>Airflow — learning</sub>"] -.-> Transform
-    Quality["🛡️ Data Quality<br/><sub>dbt tests — learning</sub>"] -.-> Model
-    CICD["🚀 Git &amp; CI/CD<br/><sub>Git • GitHub Actions — learning</sub>"] -.-> Transform
-
-    style Source fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#f8fafc
-    style Store fill:#0f172a,stroke:#c084fc,stroke-width:2px,color:#f8fafc
-    style Transform fill:#0f172a,stroke:#fb7185,stroke-width:2px,color:#f8fafc
-    style Model fill:#0f172a,stroke:#f59e0b,stroke-width:2px,color:#f8fafc
-    style BI fill:#0f172a,stroke:#34d399,stroke-width:2px,color:#f8fafc
-    style Orchestrate fill:#0f172a,stroke:#6366f1,stroke-width:2px,color:#94a3b8
-    style Quality fill:#0f172a,stroke:#ec4899,stroke-width:2px,color:#94a3b8
-    style CICD fill:#0f172a,stroke:#14b8a6,stroke-width:2px,color:#94a3b8
-```
-
-<sub>Solid boxes = used in real work. Dotted boxes = currently building fluency.</sub>
-
-<br/>
+<div align="center">
+  <img src="assets/lineage.svg" width="100%" alt="Analytics lineage: sources to staging to marts to Power BI" />
+  <br/>
+  <a href="https://duyngoduyngo.github.io/duyngoduyngo/lineage.html">
+    <img src="https://img.shields.io/badge/▶_Open_the_interactive_lineage-1f1f1f?style=for-the-badge&logoColor=e8a33d"/>
+  </a>
+</div>
 
 <div align="center">
   <table width="100%">
@@ -190,25 +178,30 @@ flowchart LR
 
 ## 📂 Featured Project
 
-<div align="center">
-  <a href="https://github.com/duyngoduyngo/smarttoys-ecommerce-analytics">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=duyngoduyngo&repo=smarttoys-ecommerce-analytics&theme=tokyonight&bg_color=0b0f19&title_color=06B6D4&text_color=e5e7eb&icon_color=8B5CF6&border_color=1f2937" alt="SmartToys E-commerce Analytics" />
-  </a>
-</div>
-
 ### 🧸 [SmartToys — Business Review &amp; Growth Strategy](https://github.com/duyngoduyngo/smarttoys-ecommerce-analytics)
 
-A full business review of a 3-year e-commerce dataset: **472,871 sessions**, **32,313 orders**, 1.1M+ pageviews across 6 relational tables. The goal wasn't a dashboard — it was answering why gross revenue and actual profit had drifted apart.
+<p>
+  <img src="https://img.shields.io/badge/472,871-sessions-38BDF8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/32,313-orders-A78BFA?style=flat-square"/>
+  <img src="https://img.shields.io/badge/1.1M+-pageviews-34D399?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/>
+</p>
 
-**Three findings that changed the recommendations:**
+A full business review of a 3-year e-commerce dataset across 6 relational tables. The goal was never a dashboard — it was explaining why gross revenue and actual profit had drifted apart.
 
-- **The business has almost no customer lifecycle.** 98.14% of customers bought exactly once; revenue per customer ($61.16) is essentially the AOV. Every unit of growth had to be repurchased with new ad budget.
-- **Mobile is the expensive leak.** 30.8% of traffic converting at 3.09% against desktop's 8.50% — and the gap holds across *all four* traffic sources, which points at the interface rather than traffic quality. Closing it is worth roughly **$473K**.
-- **The most profitable product is buried.** Highest net margin (67.08%), lowest refund rate, best add-to-cart rate — but 62× fewer category-page clicks than the flagship. A merchandising problem, not a product problem.
+**Three findings that drove the recommendations:**
 
-Eight prioritised recommendations, each tied to a specific metric and an owning team. The README also documents where the analysis **can't** support a conclusion — RFM frequency capped at three values, market-basket lift below 1 across all pairs, no refund-reason field.
+| Finding | Evidence | So what |
+|---|---|---|
+| **No customer lifecycle** | 98.14% bought exactly once; revenue per customer $61.16 ≈ AOV | Every unit of growth had to be repurchased with new ad budget |
+| **Mobile is the expensive leak** | 30.8% of traffic at 3.09% CR vs desktop 8.50% — gap holds across *all four* sources, so it's the interface, not traffic quality | Closing it is worth roughly **$473K** |
+| **Best product is buried** | Highest net margin (67.08%), lowest refunds, best add-to-cart — but 62× fewer category clicks than the flagship | Merchandising problem, not a product problem |
 
-`Python` `pandas` `numpy` `plotly` `seaborn` · Unit economics · RFM · Cohort retention · Sankey · Funnel · Market Basket
+Eight prioritised recommendations, each tied to a metric and an owning team. The README also documents where the analysis **can't** support a conclusion — RFM frequency capped at three values, market-basket lift below 1 across every pair, no refund-reason field in the source data.
+
+`Unit economics` · `RFM` · `Cohort retention` · `Sankey` · `Conversion funnel` · `Market basket`
 
 <br/>
 
@@ -217,13 +210,13 @@ Eight prioritised recommendations, each tied to a specific metric and an owning 
     <tr>
       <td width="50%" valign="top" align="center">
         <h4>🧱 dbt Analytics Project</h4>
-        <sub><img src="https://img.shields.io/badge/In_Progress-f59e0b?style=flat-square"/></sub>
-        <p>Rebuilding the SmartToys logic as layered dbt models — staging → intermediate → marts, with tests and docs.</p>
+        <img src="https://img.shields.io/badge/In_progress-f59e0b?style=flat-square"/>
+        <p>Rebuilding the SmartToys logic as layered dbt models — staging → intermediate → marts, with tests and generated docs.</p>
       </td>
       <td width="50%" valign="top" align="center">
         <h4>⚙️ Orchestrated Pipeline</h4>
-        <sub><img src="https://img.shields.io/badge/Planned-64748b?style=flat-square"/></sub>
-        <p>Scheduled ingestion + transformation with Airflow, versioned in Git with CI checks on every PR.</p>
+        <img src="https://img.shields.io/badge/Planned-64748b?style=flat-square"/>
+        <p>Scheduled ingestion and transformation with Airflow, versioned in Git with CI checks running on every pull request.</p>
       </td>
     </tr>
   </table>
@@ -234,30 +227,21 @@ Eight prioritised recommendations, each tied to a specific metric and an owning 
 ## 📈 Activity &amp; Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=duyngoduyngo&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&bg_color=0b0f19&title_color=06B6D4&text_color=e5e7eb&icon_color=8B5CF6&border_color=1f2937" width="45%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=duyngoduyngo&layout=compact&theme=tokyonight&langs_count=8&bg_color=0b0f19&title_color=06B6D4&text_color=e5e7eb&border_color=1f2937" width="35%" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=duyngoduyngo&theme=tokyonight&hide_border=false&background=0b0f19&stroke=1f2937&ring=06B6D4&fire=8B5CF6&currStreakLabel=06B6D4" width="55%" alt="Streak" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=duyngoduyngo&theme=tokyonight&show_icons=true&include_all_commits=true&count_private=true&bg_color=0b0f19&title_color=CA8A04&text_color=e5e7eb&icon_color=84CC16&border_color=1f2937" width="45%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=duyngoduyngo&layout=compact&theme=tokyonight&langs_count=8&bg_color=0b0f19&title_color=CA8A04&text_color=e5e7eb&border_color=1f2937" width="35%" alt="Top Languages" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="8px" alt="Line Divider" />
 
 ## 🎓 Certifications &amp; Training
 
-```sql
-SELECT credential, provider, status
-FROM   my_learning
-ORDER  BY relevance_to_analytics_engineering DESC;
-```
-
 | Credential | Provider | Status |
 |---|---|---|
+| Data Analyst in Python | DataCamp | ✅ Completed |
+| Associate Data Analyst in SQL | DataCamp | ✅ Completed |
 | Snowflake Bootcamp — modern data warehousing | Snowflake | ✅ Completed |
 | Databricks Lakehouse Bootcamp | Databricks | ✅ Completed |
 | Microsoft Fabric Bootcamp | Microsoft | ✅ Completed |
-| Data Analyst in Python | DataCamp | 🔄 In progress |
 | dbt Fundamentals | dbt Labs | 🔄 In progress |
 | B.A. Finance &amp; Banking | Academy of Finance | 🎓 Graduated |
 | TOEIC 840 | ETS | ✅ Certified |
@@ -273,7 +257,6 @@ ORDER  BY relevance_to_analytics_engineering DESC;
   "languages": ["Vietnamese (native)", "English (TOEIC 840)"],
   "domains": ["Banking", "Airline distribution", "Procurement", "E-commerce"],
   "favorite_stack": ["SQL", "dbt", "Power BI"],
-  "unfair_advantage": "I sat in the meetings where the metric was defined",
   "always_include": "A section on what the data cannot tell you",
   "fun_fact": "Started in Finance, detoured through airline planning, landed in data"
 }
@@ -282,5 +265,5 @@ ORDER  BY relevance_to_analytics_engineering DESC;
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="8px" alt="Line Divider" />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:38bdf8,100:0f172a&height=140&section=footer&text=Let's%20build%20something%20with%20data&fontSize=22&fontColor=f8fafc&fontAlignY=70" width="100%" alt="Footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:fef3c7,25:fde047,50:facc15,75:84cc16,100:3f6212&height=140&section=footer&text=Let's%20build%20something%20with%20data&fontSize=22&fontColor=1a2e05&fontAlignY=70" width="100%" alt="Footer" />
 </div>
