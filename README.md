@@ -1,3 +1,13 @@
+<!--
+  GitHub Profile README — duyngoduyngo
+  Repo: duyngoduyngo/duyngoduyngo  (public, named exactly your username)
+
+  This README is fully self-contained — no image files to commit.
+  Safe to delete from the repo: assets/ (lineage.svg, pipeline.svg), lineage.html
+
+  Still to check: the dates in the Professional Journey table.
+-->
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3f6212,30:84cc16,55:facc15,80:fde047,100:fef3c7&height=180&section=header&text=Duy%20Ngo&fontSize=52&fontColor=1a2e05&fontAlignY=32&desc=Analytics%20Engineer%20in%20the%20making&descAlignY=54&descSize=18" width="100%" alt="Header" />
 </div>
@@ -9,8 +19,8 @@
 <p align="center">
   <a href="mailto:duyngoduyngo@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
   <a href="https://www.linkedin.com/in/duyngoduyngo/"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-  <a href="https://github.com/duyngoduyngo?tab=repositories"><img src="https://img.shields.io/badge/Projects-000000?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
   <a href="https://sites.google.com/view/duy-ngo-portfolio"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google&logoColor=white"/></a>&nbsp;
+  <a href="https://github.com/duyngoduyngo?tab=repositories"><img src="https://img.shields.io/badge/Projects-000000?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=duyngoduyngo&style=for-the-badge&color=CA8A04" alt="views"/>
 </p>
 
@@ -85,7 +95,7 @@ analytics_engineer_in_transition:
 
 ## 🛠️ Tech Stack &amp; Ecosystem
 
-The honest version of my stack is a migration in progress. The top lane ships today; the bottom lane is the same logic being rebuilt as version-controlled code.
+The honest version of my stack is a migration in progress. The top lane is what ships at work today; the bottom lane is the same pattern built properly as code, in a repo you can clone and run.
 
 ```mermaid
 flowchart LR
@@ -94,12 +104,12 @@ flowchart LR
         A["sap_fiori<br/>SAP extract"] --> B["power_query<br/>reshape · clean"] --> C["power_bi<br/>leadership report"]
     end
 
-    subgraph next [" BUILDING — the same logic, as code "]
+    subgraph next [" BUILT AS CODE — smarttoys-analytics-pipeline "]
         direction LR
-        D["sources.yml<br/>declared · documented"] --> E["stg_<br/>clean · cast<br/>view"] --> F["int_<br/>business logic<br/>ephemeral"] --> G["mart_<br/>star schema<br/>table · tested"] --> H["exposure<br/>power_bi"]
+        D["dlt → DuckDB<br/>6 raw tables"] --> E["bronze_<br/>cast · clean<br/>6 views"] --> F["silver_<br/>business logic<br/>3 views"] --> G["gold_<br/>marts<br/>4 tables"] --> H["93 data tests<br/>on every build"]
     end
 
-    C -.->|"rewrite"| E
+    C -.->|"same pattern"| E
 
     style A fill:#1f2416,stroke:#6b7d3a,stroke-width:1.5px,color:#e8e6d9
     style B fill:#1f2416,stroke:#6b7d3a,stroke-width:1.5px,color:#e8e6d9
@@ -122,19 +132,41 @@ flowchart LR
 
 | Layer | Tools | Where I've used them |
 |---|---|---|
-| **Transform &amp; query** | <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Power_Query-217346?style=flat-square&logo=microsoft-excel&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white"/> | SQL and Power Query daily at VPBank; pandas across the SmartToys analysis; dbt on the rebuild |
-| **Modelling** | `star schema` `staging → marts` `dbt tests` | dbt Fundamentals completed; applying it to the SmartToys models now |
+| **Transform &amp; query** | <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white"/> <img src="https://img.shields.io/badge/Power_Query-217346?style=flat-square&logo=microsoft-excel&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/dlt-2C3E50?style=flat-square&logoColor=white"/> <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black"/> | SQL and Power Query daily at VPBank; dbt Core 1.12 + dlt + DuckDB on the SmartToys pipeline; pandas across the analysis repo |
+| **Modelling** | `medallion` `bronze → silver → gold` `dbt tests` `dbt docs` | 13 models and 93 automated tests shipped in the SmartToys pipeline; every mart cross-checked against an independent pandas run |
 | **Warehouse &amp; platform** | <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white"/> <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white"/> <img src="https://img.shields.io/badge/Fabric-0078D4?style=flat-square&logo=microsoft&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/> | Bootcamps on all three; evaluated them as platforms while doing tech procurement in a bank |
 | **BI &amp; visualization** | <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/> <img src="https://img.shields.io/badge/Superset-0073B7?style=flat-square&logo=apache-superset&logoColor=white"/> <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/> <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white"/> | Power BI in production for leadership reporting; plotly throughout SmartToys |
-| **Orchestration** | <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white"/> | Learning. Not in production yet — the honest gap in this list |
+| **Orchestration** | <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white"/> | Learning. No production DAG yet — and on the SmartToys pipeline I argued against adding one, since a static export gives it nothing to solve |
 | **Version control** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/> | Every project repo here; CI on the dbt rebuild |
 | **Business systems** | <img src="https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white"/> <img src="https://img.shields.io/badge/Power_Apps-742774?style=flat-square&logo=powerapps&logoColor=white"/> | SAP Fiori extracts (QT0304) and Power Apps at VPBank |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="8px" alt="Line Divider" />
 
-## 📂 Featured Project
+## 📂 Featured Projects
 
-### 🧸 [SmartToys — Business Review &amp; Growth Strategy](https://github.com/duyngoduyngo/smarttoys-ecommerce-analytics)
+Two repos, one dataset, deliberately built in that order: analyse it first, then make the analysis reproducible.
+
+### 🏗️ [SmartToys Analytics Pipeline](https://github.com/duyngoduyngo/smarttoys-analytics-pipeline) — dlt · DuckDB · dbt
+
+<p>
+  <img src="https://img.shields.io/badge/13-dbt_models-FF694B?style=flat-square"/>
+  <img src="https://img.shields.io/badge/93-data_tests-3FB950?style=flat-square"/>
+  <img src="https://img.shields.io/badge/11/11-metrics_matched-CA8A04?style=flat-square"/>
+  <img src="https://img.shields.io/badge/dlt-2C3E50?style=flat-square"/>
+  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black"/>
+  <img src="https://img.shields.io/badge/dbt_Core_1.12-FF694B?style=flat-square&logo=dbt&logoColor=white"/>
+</p>
+
+Turns the exploratory notebook below into a warehouse anyone can clone and rebuild. Six CSVs land in DuckDB through a dlt pipeline, then move through a medallion stack — 6 bronze views, 3 silver views, 4 gold marts — with tests running in dependency order so a failure stops bad data before it reaches a mart.
+
+**What I'd point an interviewer at:**
+
+- **Cross-validation.** Eleven metrics computed twice on fully independent paths — once in pandas, once in SQL — agree exactly, down to `$1,938,509.75` gross revenue and a 0.84% month-1 retention mean. That's the evidence the models are right, not just green.
+- **Tests that replaced hand-checks.** Three problems handled manually in the notebook (session fan-out, multiple refunds per line item, unverified foreign keys) became `unique`, `relationships` and singular tests. In a notebook, forgetting a check produces no signal at all.
+- **A documented failure.** One build reported `PASS=54` and looked healthy while 16 tests silently never ran — a truncated `schema.yml` meant dbt couldn't bind them, and it warned instead of erroring. The README explains the blind spot and the habit adopted afterwards: verify the `Found X data tests` count moves after every schema change.
+- **A layer deliberately left out.** No orchestrator, because the source is a static export. Two gold models also read straight from bronze, skipping silver, since a silver model used in exactly one place earns nothing.
+
+### 🧸 [SmartToys E-commerce Analytics](https://github.com/duyngoduyngo/smarttoys-ecommerce-analytics) — the analysis it came from
 
 <p>
   <img src="https://img.shields.io/badge/472,871-sessions-38BDF8?style=flat-square"/>
@@ -145,9 +177,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/>
 </p>
 
-A full business review of a 3-year e-commerce dataset across 6 relational tables. The goal was never a dashboard — it was explaining why gross revenue and actual profit had drifted apart.
-
-**Three findings that drove the recommendations:**
+A three-year business review across six relational tables. The question was never "what does the dashboard say" — it was why gross revenue and actual profit had drifted apart.
 
 | Finding | Evidence | So what |
 |---|---|---|
@@ -155,28 +185,9 @@ A full business review of a 3-year e-commerce dataset across 6 relational tables
 | **Mobile is the expensive leak** | 30.8% of traffic at 3.09% CR vs desktop 8.50% — gap holds across *all four* sources, so it's the interface, not traffic quality | Closing it is worth roughly **$473K** |
 | **Best product is buried** | Highest net margin (67.08%), lowest refunds, best add-to-cart — but 62× fewer category clicks than the flagship | Merchandising problem, not a product problem |
 
-Eight prioritised recommendations, each tied to a metric and an owning team. The README also documents where the analysis **can't** support a conclusion — RFM frequency capped at three values, market-basket lift below 1 across every pair, no refund-reason field in the source data.
+Eight prioritised recommendations, each tied to a metric and an owning team — plus a section on where the analysis **can't** support a conclusion: RFM frequency capped at three values, market-basket lift below 1 across every pair, no refund-reason field in the source.
 
 `Unit economics` · `RFM` · `Cohort retention` · `Sankey` · `Conversion funnel` · `Market basket`
-
-<br/>
-
-<div align="center">
-  <table width="100%">
-    <tr>
-      <td width="50%" valign="top" align="center">
-        <h4>🧱 dbt Analytics Project</h4>
-        <img src="https://img.shields.io/badge/In_progress-f59e0b?style=flat-square"/>
-        <p>Rebuilding the SmartToys logic as layered dbt models — staging → intermediate → marts, with tests and generated docs.</p>
-      </td>
-      <td width="50%" valign="top" align="center">
-        <h4>⚙️ Orchestrated Pipeline</h4>
-        <img src="https://img.shields.io/badge/Planned-64748b?style=flat-square"/>
-        <p>Scheduled ingestion and transformation with Airflow, versioned in Git with CI checks running on every pull request.</p>
-      </td>
-    </tr>
-  </table>
-</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="8px" alt="Line Divider" />
 
