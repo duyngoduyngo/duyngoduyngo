@@ -1,13 +1,3 @@
-<!--
-  GitHub Profile README — duyngoduyngo
-  Repo: duyngoduyngo/duyngoduyngo  (public, named exactly your username)
-
-  This README is fully self-contained — no image files to commit.
-  Safe to delete from the repo: assets/ (lineage.svg, pipeline.svg), lineage.html
-
-  Still to check: the dates in the Professional Journey table.
--->
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3f6212,30:84cc16,55:facc15,80:fde047,100:fef3c7&height=180&section=header&text=Duy%20Ngo&fontSize=52&fontColor=1a2e05&fontAlignY=32&desc=Analytics%20Engineer%20in%20the%20making&descAlignY=54&descSize=18" width="100%" alt="Header" />
 </div>
@@ -20,6 +10,7 @@
   <a href="mailto:duyngoduyngo@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
   <a href="https://www.linkedin.com/in/duyngoduyngo/"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
   <a href="https://github.com/duyngoduyngo?tab=repositories"><img src="https://img.shields.io/badge/Projects-000000?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
+  <a href="https://sites.google.com/view/duy-ngo-portfolio"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google&logoColor=white"/></a>&nbsp;
   <img src="https://komarev.com/ghpvc/?username=duyngoduyngo&style=for-the-badge&color=CA8A04" alt="views"/>
 </p>
 
